@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Inscripcion
 {
-    public partial class Form1 : Form
+    public partial class Contactos : Form
     {
-        public Form1()
+        public Contactos()
         {
             InitializeComponent();
         }
