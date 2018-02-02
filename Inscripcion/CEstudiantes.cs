@@ -16,11 +16,6 @@ namespace Inscripcion
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Buscarbutton_Click(object sender, EventArgs e)
         {
 
@@ -35,19 +30,8 @@ namespace Inscripcion
                 PersonasdataGridView.DataSource = BLL.EstudianteBLL.GetList(t => t.EstudianteId== ID);
 
 
-
-
-
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PersonasdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-          
-        }
+  
     }
 }

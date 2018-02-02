@@ -46,7 +46,7 @@
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 26;
             this.label2.Text = "Modo a buscar";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            
             // 
             // label1
             // 
@@ -98,7 +98,7 @@
             this.PersonasdataGridView.RowTemplate.Height = 24;
             this.PersonasdataGridView.Size = new System.Drawing.Size(663, 244);
             this.PersonasdataGridView.TabIndex = 21;
-            this.PersonasdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PersonasdataGridView_CellContentClick);
+
             // 
             // CEstudiantes
             // 
